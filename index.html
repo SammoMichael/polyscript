@@ -1,472 +1,657 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>PolyScript App</title>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="style.css"/>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-<!-- Font Google -->
-<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport"
+          content="initial-scale=1, minimum-scale=1, maximum-scale=1, width=device-width, shrink-to-fit=no">
+    <link href="./output.css" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>PolyScript App</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+          integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 </head>
-
 <body>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg">
-  <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img src="images/logo.png" alt="logo" class="logo-small"> </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0">Home</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">About</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Features</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Team</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">Testimonials</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="5">Faq</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="6">Contact</a> </li>
-      </ul>
+    <div class="container">
+        <a class="navbar-brand navbar-logo pr-lg-2" href="#">
+            <img src="images/logo.png" alt="logo" class="logo-small">
+        </a>
+        <a href="#"><span class="app-name">PolyScript</span></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="fas fa-bars"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="" data-scroll-nav="0">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="1">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="2">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="3">Team</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="4">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="5">Faq</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="6">Contact</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
-<!-- End Navbar --> 
+<!-- End Navbar -->
 <!-------Banner Start------->
 <section class="banner" data-scroll-index='0'>
-  <div class="banner-overlay">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-12">
-          <div class="banner-text">
-            <h2 class="white">Learn with Poly and Write Like a Pro</h2>
-            <h6 class="white">Supports close to 100 languages, reinforces character recognition, stroke order, and pronunciation</h6>
-            <p class="banner-text white"></p>
-            <ul>
-              <li><a href="https://apps.apple.com/us/app/polyscript/id6740437815"><img src="images/appstore.png" class="wow fadeInUp" data-wow-delay="0.4s"/></a></li>
-              <li><a href="https://play.google.com/store/apps/details?id=com.sammo.poly"><img src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s"/></a></li>
-            </ul>
-          </div>
+    <div class="banner-overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="banner-text">
+                        <h2 class="white">Learn with Poly and Write Like a Pro</h2>
+                        <h6 class="white">PolyScript supports nearly 80 languages, reinforces character recognition,
+                            stroke
+                            order, and pronunciation</h6>
+                        <p class="banner-text white"></p>
+                        <ul>
+                            <li><a href="https://apps.apple.com/us/app/polyscript/id6740437815" target="_blank"><img
+                                    src="images/appstore.png" class="wow fadeInUp" data-wow-delay="0.4s"
+                                    alt="Link to download on App Store"/></a>
+                            </li>
+                            <li><a href="https://play.google.com/store/apps/details?id=com.sammo.poly"
+                                   target="_blank"><img
+                                    src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s"
+                                    alt="Link to download on Play Store"/></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4"><img src="images/iphone-screen-poly.png"
+                                                  class="img-fluid wow fadeInUp" alt="App screenshot"/></div>
+            </div>
         </div>
-        <div class="col-md-4 col-sm-12"> <img src="images/iphone-screen-poly.png" class="img-fluid wow fadeInUp"/> </div>
-      </div>
     </div>
-  </div>
-  <span class="svg-wave"> <img class="svg-hero" src="images/applight-wave.svg"> </span> </section>
-
-<!-------Banner End-------> 
-
-<!-------About End------->
-
-<section class="about section-padding prelative" data-scroll-index='1'>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="sectioner-header text-center">
-          <h3>About</h3>
-          <span class="line"></span>
-          <p>PolyScript is the creation of <a href="https://sriwankm.github.io/" >Sriwan Khaomuang</a> and <a href="https://sammomichael.github.io/">Samuel Michael</a>.</p>
-        </div>
-        <div class="section-content text-center">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> <i class="fa fa-life-ring" aria-hidden="true"></i>
-                <h5>Support</h5>
-                <p>You can contact <a href="mailto:polyscript.help@gmail.com?subject=Inquiry">Email Me</a>.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"> <i class="fa fa-mobile" aria-hidden="true"></i>
-                <h5>Cross Platform</h5>
-                <p>Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed vitae condimentum nulla.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fa fa-bolt" aria-hidden="true"></i>
-                <h5>Fast</h5>
-                <p>Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed vitae condimentum nulla.</p>
-              </div>
-            </div>
-          </div>
-          <a href="#" class="about-btn">Learn More</a> </div>
-      </div>
-    </div>
-  </div>
+    <span class="svg-wave">
+        <img class="svg-hero" src="images/applight-wave.svg" alt="section divider">
+    </span>
 </section>
-<!-------About End-------> 
+
+<!-------Banner End------->
+<!-- WearOS Announcement Section Start -->
+<section class="wear-os-announcement section-padding">
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <h2 class="mb-4">Now available on WearOS for Android</h2>
+                <div class="wear-os-images-container">
+                    <img src="images/Wear_OS_icon.svg" alt="Wear OS by Google logo" class="img-fluid mx-auto d-block wear-os-logo mb-3 mb-md-0">
+                    <img src="images/wearOS2.png" alt="PolyScript app interface on a Wear OS smartwatch" class="img-fluid mx-auto d-block wear-os-screenshot mt-3 mt-md-0">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- WearOS Announcement Section End -->
+<!-------About End------->
+<section class="about section-padding prelative" data-scroll-index='1'>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="sectioner-header text-center">
+                    <h3>About</h3>
+                    <span class="line"></span>
+                    <h4>Unlock the World of Writing with Poly
+                        Effortlessly learn to write in nearly 80 languages!</h4>
+                    <br>
+
+                    <p>Poly is your personalized guide to mastering foreign scripts. Whether you're a complete beginner
+                        or looking to refine your skills, our app makes learning fun and engaging.</p>
+
+                    <br>
+
+                    <h4>Download Poly today and embark on your journey of writing mastery!</h4>
+
+                </div>
+                <div class="section-content text-center">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"><i class="fa fa-life-ring"
+                                                                                        aria-hidden="true"></i>
+                                <h5>Support</h5>
+                                <a href="mailto:polyscript.help@gmail.com?subject=Inquiry">polyscript.help@gmail.com</a>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"><i class="fa fa-mobile"
+                                                                                        aria-hidden="true"></i>
+                                <h5>Cross Platform</h5>
+                                <p>We use cutting edge Kotlin Multiplatform Technology to provide the potential to build
+                                    for Android, iOS or MacOs platforms from a shared codebase.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"><i class="fa fa-rocket"
+                                                                                        aria-hidden="true"></i>
+                                <h5>Fast</h5>
+                                <p>Because our app is minimalist we don't waste your time with long loading screens or
+                                    timeouts for mistakes. That way you can spend your time writing and learning as much
+                                    as possible</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="about-btn">Learn More</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-------About End------->
 
 <!-------Video Start------->
 <section class="video-section prelative text-center white">
-  <div class="section-padding video-overlay">
-    <div class="container">
-      <h3>Watch Now</h3>
-      <i class="fa fa-play" id="video-icon" aria-hidden="true"></i>
-      <div class="video-popup">
-        <div class="video-src">
-          <div class="iframe-src">
-            <iframe src="https://www.youtube.com/shorts/_tQvwZwX9NE" allowfullscreen></iframe>
-          </div>
+    <div class="section-padding video-overlay">
+        <div class="container">
+            <h3>Watch Now</h3>
+            <i class="fa fa-play" id="video-icon" aria-hidden="true"></i>
+            <div class="video-popup">
+                <div class="video-src">
+                    <div class="iframe-src">
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/-iT4hhwq7dA?si=KROy-tnn6Bn0Jz1d"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </section>
-<!-------Video End-------> 
+<!-------Video End------->
 
 <!-------Features Start------->
 <section class="feature section-padding" data-scroll-index='2'>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="sectioner-header text-center">
-          <h3>Features</h3>
-          <span class="line"></span>
-          <p>Features include Digital Ink Recognition, Speech Synthesis, support for dark mode as well as landscape or portrait orientation.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="sectioner-header text-center">
+                    <h3>Features</h3>
+                    <span class="line"></span>
+                    <p>PolyScript features include Digital Ink Recognition, Speech Synthesis, and Interactive
+                        Learning</p>
+                </div>
+
+
+                <div class="section-content text-center">
+                    <div class="row">
+
+                        <div class="col-md-4 d-none d-md-block d-lg-block">
+                            <div class="feature-mobile"><img src="images/iphone-dark-screen-poly.png.png"
+                                                             class="img-fluid wow fadeInUp" alt=""/></div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="media-left icon-border media-right-margin"><span class="fa fa-language"
+                                                                                             aria-hidden="true"></span>
+                                </div>
+                                <div class="media-body text-left">
+                                    <h5>Learn letters or entire words</h5>
+                                    <p>Master the basics with letter mode or build vocabulary with
+                                        word mode</p>
+                                </div>
+                            </div>
+                            <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="media-left icon-border media-right-margin"><span class="fa fa-comments"
+                                                                                             aria-hidden="true"></span>
+                                </div>
+                                <div class="media-body text-left">
+                                    <h5>Instant feedback</h5>
+                                    <p>Write characters and receive instant feedback on your accuracy. Easily
+                                        identify and correct any mistakes</p>
+                                </div>
+                            </div>
+                            <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="media-left icon-border media-right-margin"><span class="fa fa-headphones"
+                                                                                             aria-hidden="true"></span>
+                                </div>
+                                <div class="media-body text-left">
+                                    <h5>Clear pronunciation</h5>
+                                    <p>Listen to native speaker pronunciations and adjust the speaking voice
+                                        to your preference</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="media-body text-right media-right-margin">
+                                    <h5>Supports nearly 80 languages worldwide</h5>
+                                    <p>Explore a vast library of languages, from common to rare and learn in your
+                                        preferred language for a seamless experience</p>
+                                </div>
+                                <div class="media-right icon-border"><span class="fa fa-globe"
+                                                                           aria-hidden="true"></span>
+                                </div>
+                            </div>
+
+                            <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="media-body text-right media-right-margin">
+                                    <h5>System preference</h5>
+                                    <p>Choose between light and dark mode for comfortable learning</p>
+                                </div>
+                                <div class="media-right icon-border"><span class="fa fa-moon"
+                                                                           aria-hidden="true"></span></div>
+                            </div>
+                            <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="media-body text-right media-right-margin">
+                                    <h5>Customize Your Experience</h5>
+                                    <p>Hide or show translations to suit your learning style</p>
+                                </div>
+                                <div class="media-right icon-border"><span class="fa fa-cogs" aria-hidden="true"></span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="section-content text-center">
-          <div class="row">
-            <div class="col-md-4 col-sm-12">
-              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
-                <div class="media-body text-right media-right-margin">
-                  <h5>Fast Processing</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
-                </div>
-                <div class="media-right icon-border"> <span class="fa fa-bolt" aria-hidden="true"></span> </div>
-              </div>
-              <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
-                <div class="media-body text-right media-right-margin">
-                  <h5>Low Power Consuming</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
-                </div>
-                <div class="media-right icon-border"> <span class="fa fa-battery-full" aria-hidden="true"></span> </div>
-              </div>
-              <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
-                <div class="media-body text-right media-right-margin">
-                  <h5>Wifi Compatibility</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
-                </div>
-                <div class="media-right icon-border"> <span class="fa fa-wifi" aria-hidden="true"></span> </div>
-              </div>
-            </div>
-            <div class="col-md-4 d-none d-md-block d-lg-block">
-              <div class="feature-mobile"> <img src="images/iphone-screen-poly.png" class="img-fluid wow fadeInUp"/> </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
-                <div class="media-left icon-border media-right-margin"> <span class="fa fa-check-double" aria-hidden="true"></span> </div>
-                <div class="media-body text-left">
-                  <h5>Regular Updates</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
-                </div>
-              </div>
-              <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
-                <div class="media-left icon-border media-right-margin"> <span class="fa fa-dollar-sign" aria-hidden="true"></span> </div>
-                <div class="media-body text-left">
-                  <h5>Save Money</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
-                </div>
-              </div>
-              <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
-                <div class="media-left icon-border media-right-margin"> <span class="fa fa-hdd" aria-hidden="true"></span> </div>
-                <div class="media-body text-left">
-                  <h5>Unlimited Storage</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </section>
-<!-------Features End-------> 
+<!-------Features End------->
 
 <!-------Team Start------->
 <section class="team section-padding" data-scroll-index='3'>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="sectioner-header text-center">
-          <h3>Our Team</h3>
-          <span class="line"></span>
-          <p>PolyScript is the creation of <a href="https://sriwankm.github.io/" >Sriwan Khaomuang</a> and <a href="https://sammomichael.github.io/">Samuel Michael</a>.</p>
-        </div>
-        <div class="section-content text-center">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/user1.jpeg" class="img-fluid"/>
-                <h4>Sriwan Khaomuang</h4>
-                <p>CoFounder, Engineer, and Designer</p>
-              </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="sectioner-header text-center">
+                    <h3>Our Team</h3>
+                    <span class="line"></span>
+                    <p>Meet the Team Behind Your Language Success</p>
+                </div>
+                <div class="section-content text-center">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="team-detail"><img src="images/user1.jpeg"
+                                                          class="img-fluid mx-auto" alt=""/>
+                                <h4><a href="https://www.linkedin.com/in/sriwan-khaomuang/">Sriwan Khaomuang</a></h4>
+                                <p>CoFounder, Engineer, and Designer</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="team-detail"><img src="images/user2.png"
+                                                          class="img-fluid mx-auto" alt=""/>
+                                <h4><a href="https://www.linkedin.com/in/samuelamichael/">Samuel Michael</a></h4>
+                                <p>CoFounder and Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-              <div class="team-detail wow bounce" data-wow-delay="0.4s"> <img src="images/user2.png" class="img-fluid"/>
-                <h4>Samuel Michael</h4>
-                <p>CoFounder and Engineer</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
 </section>
 
-<!-------Team End-------> 
+<!-------Team End------->
 
 <!-------Testimonial Start------->
 <section class="testimonial section-padding" data-scroll-index='4'>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="sectioner-header text-center white">
-          <h3>Testimonials</h3>
-          <span class="line"></span>
-          <p class="white">Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
-        </div>
-    
-      <div class="section-content">
+    <div class="container">
         <div class="row">
-          <div class="offset-md-2 col-md-8 col-sm-12">
-            <div class="slider">
-              <div class="slider-item">
-                <div class="test-img"><img src="images/user1.jpeg" alt="Placeholder" width="157" height="157"></div>
-                <div class="test-text"><span class="title"><span>John Michal</span> Digital Designer</span> Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratvo lutpat.</div>
-              </div>
-              <div class="slider-item">
-                <div class="test-img"><img src="images/user3.jpg" alt="Placeholder" width="157" height="157"></div>
-                <div class="test-text"><span class="title"><span>Steve Smith</span> App User</span> Euismod tincidunt ut laoreet dolore magna aliquam eratvo lutpat. Ut wisi enim ad minim veniam, quis nostrud v</div>
-              </div>
-              <div class="slider-item">
-                <div class="test-img"><img src="images/user3.jpg" alt="Placeholder" width="157" height="157"></div>
-                <div class="test-text"><span class="title"><span>Gordon Shaw</span> Blogger</span> Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratvo lutpat. Ut wisi enim ad minim veniam, quis nostrud v</div>
-              </div>
+            <div class="col-12">
+                <div class="sectioner-header text-center white">
+                    <h3>Testimonials</h3>
+                    <span class="line"></span>
+                    <p class="white">Overcome the challenge of learning a new script with PolyScript. Read real stories
+                        from learners who've gained fluency in writing and feel more confident in a new language.</p>
+                </div>
+
+                <div class="section-content">
+                    <div class="row">
+                        <div class="offset-md-2 col-md-8 col-sm-12">
+                            <div class="slider">
+
+                                <div class="slider-item">
+                                    <div class="test-img"><img src="images/user2.jpg" alt="Placeholder" width="157"
+                                                               height="157"></div>
+                                    <div class="test-text"><span
+                                            class="title"><span>Supan</span> Electrical Engineer</span>
+                                        I'm a beginner in Japanese and am looking to take the JLPT test. I found this
+                                        app very useful for practicing writing Japanese alphabets and words. I can't
+                                        wait for PolyScript to support more proficiency levels. It's very easy to use,
+                                        and I can practice anywhere. I would recommend this app to anyone who is
+                                        learning a new language.
+                                    </div>
+                                </div>
+                                <div class="slider-item">
+                                    <div class="test-img"><img src="images/user1.jpg" alt="Placeholder" width="157"
+                                                               height="157"></div>
+                                    <div class="test-text"><span
+                                            class="title"><span>Khonsawan</span> Hair Designer</span>
+                                        My partner is German, and I have trouble remembering dairy vocabulary. However,
+                                        PolyScript makes it easy for me to practice writing and remember the words by
+                                        seeing the meaning in my local language. I love this app!
+                                    </div>
+                                </div>
+                                <div class="slider-item">
+                                    <div class="test-img"><img src="images/user4.jpg" alt="Placeholder" width="157"
+                                                               height="157"></div>
+                                    <div class="test-text"><span class="title"><span>Chris</span> Lawyer</span>
+                                        I'm learning Chinese and have been using PolyScript for a few months now.
+                                        I used the app to help prepare for the HSK exam and thanks to PolyScript I
+                                        was able to ace the writing section. I can't wait for the app to support writing
+                                        whole sentences in Chinese!
+                                    </div>
+                                </div>
+                                <div class="slider-item">
+                                    <div class="test-img"><img src="images/user3.jpg" alt="Placeholder" width="157"
+                                                               height="157"></div>
+                                    <div class="test-text"><span
+                                            class="title"><span>Herbert</span> Retired Teacher</span>
+                                        I've been studying Italian for years, and I've always had trouble with
+                                        writing. PolyScript has helped me improve my writing skills and has made
+                                        learning Italian more fun.
+                                    </div>
+                                </div>
+                                <div class="slider-item">
+                                    <div class="test-img"><img src="images/user5.jpg" alt="Placeholder" width="157"
+                                                               height="157"></div>
+                                    <div class="test-text"><span class="title"><span>Paul</span> Nomad Living in Thailand</span>
+                                        Living in Thailand, I've always wanted to learn Thai. PolyScript has made
+                                        learning Thai fun and easy. I can practice writing Thai characters and words
+                                        anywhere, anytime.
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      </div>
     </div>
-  </div>
 </section>
 
-<!-------Testimonial End-------> 
+<!-------Testimonial End------->
 
 <!-------FAQ Start------->
 <section class="faq section-padding prelative" data-scroll-index='5'>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="sectioner-header text-center">
-          <h3>Frequently Asked Questions</h3>
-          <span class="line"></span>
-          <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="sectioner-header text-center">
+                    <h3>Frequently Asked Questions</h3>
+                    <span class="line"></span>
+                    <p>We hope these questions and answers help guide you on your language learning journey!</p>
+                </div>
+                <div class="section-content">
+                    <div class="row">
+                        <div class="col-12 col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
+                            <h4>I can't read English, can I still use your App?</h4>
+                            <p>PolyScript lets you choose your working language, so you can see translations in just as
+                                many languages as you can learn in!</p>
+                        </div>
+                        <div class="col-12 col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
+                            <h4>I can't seem to get a word right, what am I doing wrong?</h4>
+                            <p>The characters you write are checked with a digital ink recognition model. In order to
+                                enforce correct technique it is sensitive to both stroke order and direction on purpose.
+                                In other words if you write Arabic left to right or Chinese down to up even if it
+                                matches exactly it may not recognize. If that still doesn't help, please report as a bug
+                                to us and we will take a look</p>
+                        </div>
+                        <div class="col-12 col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
+                            <h4>There is a feature I think would be really great for PolyScript, how can I request
+                                it?</h4>
+                            <p>You can use the email link or contact form to let us know your feedback, or leave a
+                                review on Play or App Stores!</p>
+                        </div>
+                        <div class="col-12 col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
+                            <h4>What is the inspiration and goals for PolyScript?</h4>
+                            <p>As lifelong lovers of language, we wanted to build an app that embraced the largest
+                                variety of languages possible from Ancient Greek to Khmer and beyond, while focusing on
+                                one of the trickiest aspects of new language acquisition, reading in a foreign script.
+                                PolyScript trains your muscle memory, recall, and pronunciation and with consistent use
+                                you will be able to bridge the gap between a beginning learner of a new script and
+                                someone able to begin reading simple narratives and texts.</p>
+                        </div>
+                        <div class="col-12 col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+                            <h4>What are some of the upcoming features in the works?</h4>
+                            <p>Our goal was to start with a minimalist yet beautiful design, meanwhile we have already
+                                begun development of new features like Spaced Repetition, Content Generation with AI,
+                                Community Sharing, and Gamification.</p>
+                        </div>
+                        <div class="col-12 col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+                            <h4>What distinguishes PolyScript from other language learning apps?</h4>
+                            <p>PolyScript is more comprehensive in terms of total languages supported. Studies have also
+                                shown that tasks like handwriting are much better at memorizing new vocab than multiple
+                                choice or drag-and-drop type questions.</p>
+                        </div>
+                        <div class="col-12 col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+                            <h4>Do I need to buy a stylus for this app or can I use my fingers?</h4>
+                            <p>PolyScript is designed to work with either stylus or fingers. We recommend stylus for the
+                                most realistic writing experience, but whatever works for you!</p>
+                        </div>
+                        <div class="col-12 col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+                            <h4>Do I need to trace directly over the prompt or can I write anywhere on the canvas?</h4>
+                            <p>You can write anywhere, sometimes you might need to trace and later find freehand is more
+                                rewarding</p>
+                        </div>
+                        <div class="col-12 col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+                            <h4>All I see are A,B,C's is there anything else the app can do?</h4>
+                            <p>Yes! We have both word and letter mode. Depending on the language and your level, it
+                                might make more sense to practice one or the other or both</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
-              <h4>Nam tellus felis, dignissim quis dui ?</h4>
-              <p>Suspendisse fermentum placerat enim, at pellentesque augue. Nullam elit est, ultricies et tellus ac, euismod placerat orci. Donec commodo.</p>
-            </div>
-            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
-              <h4>Mauris scelerisque, dui non faucibus vulputate ?</h4>
-              <p>Sed tempus in neque ac rhoncus. Phasellus vehicula, erat tempor malesuada egestas, mauris tellus malesuada erat, at vestibulum nulla ex et lectus. Nullam elit est, ultricies et tellus ac, euismod placerat orci.</p>
-            </div>
-            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
-              <h4>Nullam elit est, ultricies et tellus ac ?</h4>
-              <p>Ut vestibulum euismod aliquet. Quisque nec malesuada nibh. Vivamus euismod nunc eu leo faucibus, vel elementum justo posuere. In sed varius nisi. Curabitur id porta ipsum, et vestibulum dui.</p>
-            </div>
-            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
-              <h4>Suspendisse fermentum placerat enim, at pellentesque augue elit est ?</h4>
-              <p>Vivamus euismod nunc eu leo faucibus, vel elementum justo posuere. In sed varius nisi.</p>
-            </div>
-            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
-              <h4>Ut vestibulum euismod aliquet. Quisque nec malesuada nibh ?</h4>
-              <p>Suspendisse fermentum placerat enim, at pellentesque augue. Nullam elit est, ultricies et tellus ac, euismod placerat orci. Donec commodo dapibus congue.</p>
-            </div>
-            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
-              <h4>Donec commodo dapibus congue ?</h4>
-              <p>Nullam elit est, ultricies et tellus ac, euismod placerat orci fermentum placerat enim, at pellentesque augue. Nullam elit est, ultricies et tellus ac, euismod placerat orci. Donec commodo dapibus congue.</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </section>
 
-<!-------FAQ End-------> 
+<!-------FAQ End------->
 
 <!-------Contact Start------->
 <section class="contact section-padding" data-scroll-index='6'>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="sectioner-header text-center">
-          <h3>Contact us</h3>
-          <span class="line"></span>
-          <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
-        </div>
-        <div class="section-content">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-8">
-              <form id="contact_form" action="">
-                <div class="row">
-                  <div class="col">
-                    <input type="text" id="your_name" class="form-input w-100" name="full-name" placeholder="Full Name" required>
-                  </div>
-                  <div class="col">
-                    <input type="email" id="email" class="form-input w-100" name="email" placeholder="Email" required>
-                  </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sectioner-header text-center">
+                    <h3>Contact us</h3>
+                    <span class="line"></span>
+                    <p>Please feel free to reach out with questions, comments or other feedback, through the contact
+                        form or on Google Play or Apple App store. We'd love you to share how you are enjoying your
+                        experience</p>
                 </div>
-                <input type="text" id="subject" class="form-input w-100" name="subject" placeholder="Subject">
-                <textarea class="form-input w-100" id="message" placeholder="Message" name="message"></textarea>
-                <button class="btn-grad w-100 text-uppercase" type="submit" name="button">submit</button>
-              </form>
+
+                <div class="col-md-12 text-center">
+                    <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="images/logo.png" alt="logo" class="logo-contact mx-auto">
+                        <h5>Support</h5>
+                        <a href="mailto:polyscript.help@gmail.com?subject=Inquiry">polyscript.help@gmail.com</a>
+
+                    </div>
+                </div>
+                <!--                <div class="section-content">-->
+                <!--                    <div class="row">-->
+                <!--                        <div class="col-sm-12 col-md-12 col-lg-8">-->
+                <!--                            <form id="contact_form" action="">-->
+                <!--                                <div class="row">-->
+                <!--                                    <div class="col">-->
+                <!--                                        <input type="text" id="your_name" class="form-input w-100" name="full-name"-->
+                <!--                                               placeholder="Full Name" required>-->
+                <!--                                    </div>-->
+                <!--                                    <div class="col">-->
+                <!--                                        <input type="email" id="email" class="form-input w-100" name="email"-->
+                <!--                                               placeholder="Email" required>-->
+                <!--                                    </div>-->
+                <!--                                </div>-->
+                <!--                                <input type="text" id="subject" class="form-input w-100" name="subject"-->
+                <!--                                       placeholder="Subject">-->
+                <!--                                <textarea class="form-input w-100" id="message" placeholder="Message"-->
+                <!--                                          name="message"></textarea>-->
+                <!--                                <button class="btn-grad w-100 text-uppercase" type="submit" name="button">submit-->
+                <!--                                </button>-->
+                <!--                            </form>-->
+                <!--                        </div>-->
+                <div class="col-sm-12 col-md-12 col-lg-6 mx-auto">
+                    <div class="contact-info white">
+                        <div class="contact-item media"><i
+                                class="fa fa-map-marker-alt media-left media-right-margin"></i>
+                            <div class="media-body">
+                                <p class="text-uppercase">Address</p>
+                                <p class="text-uppercase">New York, USA</p>
+                            </div>
+                        </div>
+                        <!--                                <div class="contact-item media"><i-->
+                        <!--                                        class="fa fa-mobile media-left media-right-margin"></i>-->
+                        <!--                                    <div class="media-body">-->
+                        <!--                                        <p class="text-uppercase">Phone</p>-->
+                        <!--                                        <p class="text-uppercase"><a class="text-white" href="tel:+15173977100">009900990099</a>-->
+                        <!--                                        </p>-->
+                        <!--                                    </div>-->
+                        <!--                                </div>-->
+                        <div class="contact-item media"><i
+                                class="fa fa-envelope media-left media-right-margin"></i>
+                            <div class="media-body">
+                                <p class="text-uppercase">E-mail</p>
+                                <p class="text-uppercase"><a class="text-white"
+                                                             href="mailto:polyscript.help@gmail.com">polyscript.help@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-item media"><i
+                                class="fa fa-clock media-left media-right-margin"></i>
+                            <div class="media-body">
+                                <p class="text-uppercase">Working Hours</p>
+                                <p class="text-uppercase">Mon-Fri 9.00 AM to 5.00PM (EST)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
-              <div class="contact-info white">
-                <div class="contact-item media"> <i class="fa fa-map-marker-alt media-left media-right-margin"></i>
-                  <div class="media-body">
-                    <p class="text-uppercase">Address</p>
-                    <p class="text-uppercase">New Delhi, India</p>
-                  </div>
-                </div>
-                <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
-                  <div class="media-body">
-                    <p class="text-uppercase">Phone</p>
-                    <p class="text-uppercase"><a class="text-white" href="tel:+15173977100">009900990099</a> </p>
-                  </div>
-                </div>
-                <div class="contact-item media"> <i class="fa fa-envelope media-left media-right-margin"></i>
-                  <div class="media-body">
-                    <p class="text-uppercase">E-mail</p>
-                    <p class="text-uppercase"><a class="text-white" href="mailto:abcdefg@gmail.com">yogeshsingh.now@gmail.com</a> </p>
-                  </div>
-                </div>
-                <div class="contact-item media"> <i class="fa fa-clock media-left media-right-margin"></i>
-                  <div class="media-body">
-                    <p class="text-uppercase">Working Hours</p>
-                    <p class="text-uppercase">Mon-Fri 9.00 AM to 5.00PM.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            <!--                </div>-->
+            <!--            </div>-->
         </div>
-      </div>
     </div>
-  </div>
 </section>
 
-<!-------Contact End-------> 
+<!-------Contact End------->
 
 <!-------Download End------->
 <section class="download section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="sectioner-header text-center white">
-          <h3>Download PolyScript</h3>
-          <span class="line"></span>
-          <p class="white">Learn with Poly Write Like a Pro!</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sectioner-header text-center white">
+                    <h3>Download PolyScript</h3>
+                    <span class="line"></span>
+                    <p class="white">Learn with Poly Write Like a Pro!</p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="section-content text-center">
+                    <ul>
+                        <li><a href="https://apps.apple.com/us/app/polyscript/id6740437815" target="_blank"><img
+                                src="images/appstore.png" class="wow fadeInUp" data-wow-delay="0.4s"/></a>
+                        </li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.sammo.poly" target="_blank"><img
+                                src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s"/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-md-12">
-        <div class="section-content text-center">
-          <ul>
-            <li><a href="#"><img src="images/appstore.png" class="wow fadeInUp" data-wow-delay="0.4s"/></a></li>
-            <li><a href="#"><img src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s"/></a></li>
-          </ul>
-        </div>
-      </div>
     </div>
-  </div>
 </section>
 
 <!-------Download End------->
 
 <footer class="footer-copy">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-        <p>2018 &copy; PolyScript. Website Designed by <a href="http://w3Template.com" target="_blank" rel="dofollow">W3 Template</a></p>
-      </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <p>2024 &copy; PolyScript. Website Designed by <a href="http://w3Template.com" target="_blank"
+                                                                  rel="dofollow">W3 Template</a></p>
+            </div>
+        </div>
     </div>
-  </div>
 </footer>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> 
-<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
-<!-- scrollIt js --> 
-<script src="js/scrollIt.min.js"></script> 
-<script src="js/wow.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<!-- scrollIt js -->
+<script src="js/scrollIt.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script>
-	wow = new WOW();
-	wow.init();
-$(document).ready(function(e) {
+    wow = new WOW();
+    wow.init();
+    $(document).ready(function (e) {
 
-	$('#video-icon').on('click',function(e){
-	e.preventDefault();
-	$('.video-popup').css('display','flex');
-	$('.iframe-src').slideDown();
-	});
-	$('.video-popup').on('click',function(e){
-	var $target = e.target.nodeName;
-	var video_src = $(this).find('iframe').attr('src');
-	if($target != 'IFRAME'){
-	$('.video-popup').fadeOut();
-	$('.iframe-src').slideUp();
-	$('.video-popup iframe').attr('src'," ");
-	$('.video-popup iframe').attr('src',video_src);
-	}
-	});
+        $('#video-icon').on('click', function (e) {
+            e.preventDefault();
+            $('.video-popup').css('display', 'flex');
+            $('.iframe-src').slideDown();
+        });
+        $('.video-popup').on('click', function (e) {
+            var $target = e.target.nodeName;
+            var video_src = $(this).find('iframe').attr('src');
+            if ($target != 'IFRAME') {
+                $('.video-popup').fadeOut();
+                $('.iframe-src').slideUp();
+                $('.video-popup iframe').attr('src', " ");
+                $('.video-popup iframe').attr('src', video_src);
+            }
+        });
 
-	$('.slider').bxSlider({
-	pager: false
-	});
-});
-    
-$(window).on("scroll",function () {
+        $('.slider').bxSlider({
+            pager: false
+        });
+    });
 
-	var bodyScroll = $(window).scrollTop(),
-	navbar = $(".navbar");
-	
-	if(bodyScroll > 50){
-	$('.navbar-logo img').attr('src','images/logo-black.png');
-	navbar.addClass("nav-scroll");
+    $(window).on("scroll", function () {
 
-}else{
-	$('.navbar-logo img').attr('src','images/logo.png');
-	navbar.removeClass("nav-scroll");
-}
+        var bodyScroll = $(window).scrollTop(),
+            navbar = $(".navbar");
 
-});
-$(window).on("load",function (){
-	var bodyScroll = $(window).scrollTop(),
-	navbar = $(".navbar");
-	
-	if(bodyScroll > 50){
-	$('.navbar-logo img').attr('src','images/logo-black.png');
-	navbar.addClass("nav-scroll");
-	}else{
-	$('.navbar-logo img').attr('src','images/logo-white.png');
-	navbar.removeClass("nav-scroll");
-	}
+        if (bodyScroll > 50) {
+            $('.navbar-logo img').attr('src', 'images/logo.png');
+            navbar.addClass("nav-scroll");
 
-	$.scrollIt({
-	
-	easing: 'swing',      // the easing function for animation
-	scrollTime: 900,       // how long (in ms) the animation takes
-	activeClass: 'active', // class given to the active nav element
-	onPageChange: null,    // function(pageIndex) that is called when page is changed
-	topOffset: -63
-	});
-});
+        } else {
+            $('.navbar-logo img').attr('src', 'images/logo.png');
+            navbar.removeClass("nav-scroll");
+        }
+
+    });
+    $(window).on("load", function () {
+        var bodyScroll = $(window).scrollTop(),
+            navbar = $(".navbar");
+
+        if (bodyScroll > 50) {
+            $('.navbar-logo img').attr('src', 'images/logo.png');
+            navbar.addClass("nav-scroll");
+        } else {
+            $('.navbar-logo img').attr('src', 'images/logo.png');
+            navbar.removeClass("nav-scroll");
+        }
+
+        $.scrollIt({
+
+            easing: 'swing',      // the easing function for animation
+            scrollTime: 900,       // how long (in ms) the animation takes
+            activeClass: 'active', // class given to the active nav element
+            onPageChange: null,    // function(pageIndex) that is called when page is changed
+            topOffset: -63
+        });
+    });
 
 </script>
 </body>
